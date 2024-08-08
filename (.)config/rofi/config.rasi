@@ -1,0 +1,16 @@
+* {
+    bg0:    #1F242C;  /* Darker shade for bg0 */
+    bg1:    #2A2E38;  /* Darker shade for bg1 */
+    bg2:    #3B434F;  /* Darker shade for bg2 */
+    bg3:    #6D8C9B;  /* Darker shade for bg3 */
+    fg0:    #B0B9C5;  /* Darker shade for fg0 */
+    fg1:    #D1D9E0;  /* Darker shade for fg1 */
+    fg2:    #B0B9C5;  /* Darker shade for fg2 */
+    fg3:    #3B434F;  /* Darker shade for fg3 */
+}
+
+@import "rounded-common.rasi"
+
+element selected {
+    text-color: @bg1;
+}
